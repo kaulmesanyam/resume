@@ -4,7 +4,15 @@
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{array}
-\usepackage{hyperref}
+\usepackage{etoolbox}
+\usepackage[pdfusetitle]{hyperref}
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+    pdftitle={Sanyam Kaul - Software Development Engineer Resume},
+    pdfauthor={Sanyam Kaul},
+    pdfsubject={Resume}
+}
 
 % Remove page numbers
 \pagestyle{empty}
@@ -18,7 +26,7 @@
 \newcommand{\resumeHeading}[4]{
   \begin{tabular*}{\textwidth}[t]{p{0.65\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.3\textwidth}}
     \textbf{#1} & \textit{#2} \\
-    \textit{#3} & \textit{#4}
+    & \textit{\ifstrempty{#4}{#3}{#3 \ #4}}
   \end{tabular*}
   \vspace{-4pt}
 }
@@ -29,17 +37,17 @@
 \begin{center}
     {\Huge\bfseries SANYAM KAUL} \\
     \vspace{2pt}
-    \small kaulsanyam@gmail.com $|$ +917018498338
+    \small kaulsanyam@gmail.com | +91-7018498338
 \end{center}
 
 % Education
 \section{Education}
-\resumeHeading{M.Tech Computer Science \& Engineering}{IIT Hyderabad}{2025}{CGPA: 8.50}
+\resumeHeading{M.Tech Computer Science \& Engineering}{IIT Hyderabad}{2025}{CGPA: 8.90}
 \resumeHeading{B.Tech Computer Science \& Engineering (Networks \& Security)}{VIT-AP University, Amaravati}{2021}{CGPA: 8.90}
 
 % Experience
 \section{Experience}
-\resumeHeading{Data Engineer}{Netradyne}{Jul 2025 -- Present}{}
+\resumeHeading{Data Engineer}{Netradyne}{July 2025 - Present}{}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
     \resumeItem{Implemented AWS Monitoring Dashboard enabling users to view EC2 instances with metrics and cost analysis, reducing infrastructure costs}
     \resumeItem{Enhanced Kubernetes EKS logging infrastructure by integrating rsyslog sidecar containers for real-time log monitoring and forwarding}
@@ -48,7 +56,7 @@
     \resumeItem{Automated EC2 environment setup via Jenkins jobs with S3 synchronization, reducing manual deployment time by 60\%}
 \end{itemize}
 
-\resumeHeading{Tech Analyst (SDE-1)}{BlackRock}{Jul 2021 -- Jun 2023}{}
+\resumeHeading{Tech Analyst (SDE-1)}{BlackRock}{July 2021 - June 2023}{}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
     \resumeItem{Developed full-stack Self-Service Financial Information Reporting Tool (Angular, Spring Boot), reducing report setup time from 1.5 months to 2-3 days}
     \resumeItem{Engineered scalable applications using Angular, Python, and Spring Boot with 85\%+ test coverage, focusing on architecture and design patterns}
@@ -57,7 +65,7 @@
     \resumeItem{Mentored 3 interns through BlackRock's Buddy program, facilitating smooth onboarding and technical skill development}
 \end{itemize}
 
-\resumeHeading{Tech Intern}{BlackRock}{Jan 2021 -- Jul 2021}{}
+\resumeHeading{Tech Intern}{BlackRock}{January 2021 - July 2021}{}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
     \resumeItem{Led team of 4 to build Angular and Golang Dashboard for visualizing CI/CD pipeline failures with Azure DevOps integration}
     \resumeItem{Built real-time backend service using Golang with Azure APIs to fetch and process CI/CD metrics and failure statistics}

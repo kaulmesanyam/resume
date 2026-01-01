@@ -4,7 +4,15 @@
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{array}
-\usepackage{hyperref}
+\usepackage{etoolbox}
+\usepackage[pdfusetitle]{hyperref}
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+    pdftitle={Sanyam Kaul - Web3/Blockchain Engineer Resume},
+    pdfauthor={Sanyam Kaul},
+    pdfsubject={Resume}
+}
 
 % Remove page numbers
 \pagestyle{empty}
@@ -18,7 +26,7 @@
 \newcommand{\resumeHeading}[4]{
   \begin{tabular*}{\textwidth}[t]{p{0.65\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.3\textwidth}}
     \textbf{#1} & \textit{#2} \\
-    \textit{#3} & \textit{#4}
+    & \textit{\ifstrempty{#4}{#3}{#3 \ #4}}
   \end{tabular*}
   \vspace{-4pt}
 }
@@ -29,12 +37,12 @@
 \begin{center}
     {\Huge\bfseries SANYAM KAUL} \\
     \vspace{2pt}
-    \small kaulsanyam@gmail.com $|$ +917018498338
+    \small kaulsanyam@gmail.com | +91-7018498338
 \end{center}
 
 % Education
 \section{Education}
-\resumeHeading{M.Tech Computer Science \& Engineering}{IIT Hyderabad}{2025}{CGPA: 8.50}
+\resumeHeading{M.Tech Computer Science \& Engineering}{IIT Hyderabad}{2025}{CGPA: 8.90}
 \resumeHeading{B.Tech Computer Science \& Engineering (Networks \& Security)}{VIT-AP University, Amaravati}{2021}{CGPA: 8.90}
 
 % Research \& Publications
@@ -48,14 +56,14 @@
 
 % Experience
 \section{Experience}
-\resumeHeading{Data Engineer}{Netradyne}{Jul 2025 -- Present}{}
+\resumeHeading{Data Engineer}{Netradyne}{July 2025 - Present}{}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
     \resumeItem{Designed and implemented distributed systems using Kubernetes (EKS) for container orchestration and scalable infrastructure}
     \resumeItem{Built automated CI/CD pipelines and infrastructure monitoring systems for high-availability applications}
     \resumeItem{Optimized data processing workflows and storage solutions using AWS cloud services}
 \end{itemize}
 
-\resumeHeading{Tech Analyst (SDE-1)}{BlackRock}{Jul 2021 -- Jun 2023}{}
+\resumeHeading{Tech Analyst (SDE-1)}{BlackRock}{July 2021 - June 2023}{}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
     \resumeItem{Developed distributed systems and microservices architecture using Spring Boot and Angular}
     \resumeItem{Implemented REST and GraphQL APIs for distributed systems, standardizing workflows across 50+ teams}
