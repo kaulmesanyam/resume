@@ -1,0 +1,35 @@
+BlackRock: -
+
+    Tech Analyst (SDE-1): Jul, 2021 - Jun, 2023
+    Tech Intern: Jan, 2021 - Jul, 2021
+
+    Skills used - Java, TypeScript, JavaScript, Python, Golang, Angular, Spring Boot, Express (Node.js), MySQL, MongoDB, Sybase, Azure DevOps, REST APIs, GraphQL APIs, CI/CD, Git, Jira, Confluence
+
+    1. Developed a full-stack Self-Service Financial Information Reporting Tool using Angular and Spring Boot, reducing report setup time from 1.5 months to 2-3 days.
+    2. Engineered Angular, Python, and Spring Boot applications/servers focusing on business implications, design, and architecture, achieving more than 85% test case coverage in all code implementations.
+    3. Implemented CI/CD pipelines on Azure DevOps for five business critical servers and achieved performance and integration testing automation by 50%.
+    4. Spearheaded implementation and integration of REST and GraphQL APIs, enhancing standardization across 50+ business, development and quality assurance teams.
+    5. Mentored 3 interns through BlackRock's Buddy program, facilitating their smooth onboarding and internship experiences.
+    6. Successfully spearheaded a team of 4 to build an Angular and Golang Dashboard for developers to visualize pipeline failures as part of CI/CD integration with Azure DevOps.
+    7. Oversaw the implementation of Angular-based frontend to display critical metrics like pipeline runs, failure statistics etc.
+    8. Built Golang-based backend with Azure APIs integration to fetch CI/CD data in real-time.
+
+Netradyne: -
+
+    Data Engineer : Jul 2025 - present
+
+    Skills used - Python, aws (ec2, EKS, ASG, S3 FSx, cloudwatch and cost explorer apis), docker, mongodb
+
+    1. EKS logging: updated the kubernetes configs of alert kpi compilation to make sure that the rsyslog sidecar is added to the pod which monitors the compilation logs and forwards it to metric mahine.   
+    2. added funcitonality on front end to download compilation logs of a specific job by pressing a button. elastic search is used to find the correct logs.   
+    3. Updated bash scripts to introduce reporcessing commands which use tensorRT 8 and 10 libraries. earlier only tensorRT7 library support was there.   
+    4. got a jenkins job ready for analytics_ec2_environment repo which takes the latest code and syncs it with the S3 bucket from where it is then fetched to set up new ec2 environments   
+    5. Added support of In Service Instances AWS metric in alert kpi recent job table. users can now see the current in service instances of respective ASGs in the table. Earlier users could only see the desired instances metric on the table.   
+    6. Added _ALL locale support in alert-kpi tool in dataset creation. WHen a new dataset creation job is executed it divides the ids into different groups based of locale. I added a group - _All which holds all the ids which are provided in the job. Ensured that the update is backward compaitble. This way, any old dataset can be updated and the newly fored locale groups will include the _ALL group as well. This is useful for model training teams when they want to train models with all the ids (earlier they had to manually collect all the ids by accessing each group separatly)  
+    7. Added a bash based flag in reprocessing process which is used to turn on forced compilation of analytics code. there are different docker images to compile analytics code base for differnet tensorRT libraries. Now its the reponsibility of a separate team to maintain these images. the reprocessing process should not compile the code base. it should just use the provided docker image. Hence, i updated the reprocessing code to NOT compile analytics codebase by default and added a --flag which when set to true will forcefully compile the codebase.   
+    8. alert kpi tool had a bud in which the correct failure details were now provided to the user in case of a complete analoymization failure. resolved it.   
+    9. Did analysis for the aws monitoring dashboard which is to be built. gathered the aws metricss which we need to show on the dashboard and APIs required for development.   
+    10. Finalized the user stories and created the action items for the development of the dashboard.  
+    11. Implemented AWS Monitoring Dashboard which lets users view the handcreated instances on the alert KPI tool along with their mentrics and cost. Planned to be released   
+    12. Implemented additional functionalities in the dashbaord like manual start/ stop of instances on the bases of ownership, auto on/off scheduling, machine insights which will be part of the next phase release of dashboard.   
+    13. Finalized and planned set-up of the shared FSx based network drive for EC2 machines in the initiative to reduce overall storage cost.

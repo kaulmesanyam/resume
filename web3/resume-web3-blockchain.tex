@@ -1,0 +1,96 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{hyperref}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeHeading}[4]{
+  \begin{tabular*}{\textwidth}[t]{p{0.65\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.3\textwidth}}
+    \textbf{#1} & \textit{#2} \\
+    \textit{#3} & \textit{#4}
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge\bfseries SANYAM KAUL} \\
+    \vspace{2pt}
+    \small kaulsanyam@gmail.com $|$ +917018498338
+\end{center}
+
+% Education
+\section{Education}
+\resumeHeading{M.Tech Computer Science \& Engineering}{IIT Hyderabad}{2025}{CGPA: 8.50}
+\resumeHeading{B.Tech Computer Science \& Engineering (Networks \& Security)}{VIT-AP University, Amaravati}{2021}{CGPA: 8.90}
+
+% Research \& Publications
+\section{Research \& Publications}
+\resumeHeading{Blockchain Architecture Optimization - HyperLedger Fabric}{\href{https://arxiv.org/abs/2509.07425}{arXiv:2509.07425}}{Indosys 2025 Conference}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Optimized core architecture of HyperLedger Fabric blockchain to reduce transaction failure rate, improving overall efficiency}
+    \resumeItem{Presented research findings at Indosys 2025 Conference; Published on arXiv}
+    \resumeItem{Analyzed blockchain consensus mechanisms, transaction processing, and network architecture for performance improvements}
+\end{itemize}
+
+% Experience
+\section{Experience}
+\resumeHeading{Data Engineer}{Netradyne}{Jul 2025 -- Present}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Designed and implemented distributed systems using Kubernetes (EKS) for container orchestration and scalable infrastructure}
+    \resumeItem{Built automated CI/CD pipelines and infrastructure monitoring systems for high-availability applications}
+    \resumeItem{Optimized data processing workflows and storage solutions using AWS cloud services}
+\end{itemize}
+
+\resumeHeading{Tech Analyst (SDE-1)}{BlackRock}{Jul 2021 -- Jun 2023}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Developed distributed systems and microservices architecture using Spring Boot and Angular}
+    \resumeItem{Implemented REST and GraphQL APIs for distributed systems, standardizing workflows across 50+ teams}
+    \resumeItem{Built scalable backend services with high availability and fault tolerance}
+\end{itemize}
+
+% Projects
+\section{Projects}
+\resumeHeading{WineSecretHK - RAG-based AI System with Web Integration}{\href{https://rag.winesecrethk.com/docs}{rag.winesecrethk.com/docs}}{}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Built distributed AI system with FastAPI backend, AWS RDS, and ChromaDB for vector database operations}
+    \resumeItem{Implemented webhook integrations for payment processing and order management systems}
+    \resumeItem{Designed scalable architecture for multi-modal input processing (text, audio, images)}
+\end{itemize}
+
+% Technical Skills
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{\textbf{Blockchain:} HyperLedger Fabric, Consensus Mechanisms, Transaction Processing, Smart Contracts, Distributed Ledger Technology}
+    \resumeItem{\textbf{Distributed Systems:} Microservices Architecture, API Design (REST, GraphQL), Container Orchestration (Kubernetes, Docker)}
+    \resumeItem{\textbf{Cloud \& Infrastructure:} AWS (EC2, EKS, S3, FSx, CloudWatch), Azure DevOps, CI/CD Pipelines}
+    \resumeItem{\textbf{Languages:} Python, Java, Golang, TypeScript, JavaScript, C++}
+    \resumeItem{\textbf{Frameworks:} Spring Boot, Angular, Express.js, FastAPI}
+    \resumeItem{\textbf{Databases:} MongoDB, MySQL, ChromaDB, AWS RDS}
+    \resumeItem{\textbf{Tools:} Git, Docker, Kubernetes, Jenkins, Elasticsearch}
+\end{itemize}
+
+% Achievements
+\section{Achievements}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Published research on HyperLedger Fabric optimization at Indosys 2025 Conference}
+    \resumeItem{1st position in IITH ML Hackathon; 15th position (out of 100+ teams) in IITH Deep Learning Hackathon}
+    \resumeItem{1st position in Object Oriented Programming course (100+ students); 450+ problems solved on LeetCode}
+    \resumeItem{4/5 star rating in BlackRock annual employee ratings (2021, 2022)}
+\end{itemize}
+
+\end{document}
+
