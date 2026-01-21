@@ -1,0 +1,116 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{etoolbox}
+\usepackage[pdfusetitle]{hyperref}
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+    pdftitle={Sanyam Kaul - Data Engineer Resume},
+    pdfauthor={Sanyam Kaul},
+    pdfsubject={Resume}
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newlength{\resumeLeftCol}
+\newlength{\resumeRightCol}
+\setlength{\resumeLeftCol}{0.65\textwidth}
+\setlength{\resumeRightCol}{0.3\textwidth}
+\newcommand{\resumeHeading}[4]{
+  \begin{tabular*}{\textwidth}{@{}p{\resumeLeftCol}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{\resumeRightCol}@{}}
+    \textbf{#1} & \textit{#2} \\
+    & \textit{\ifstrempty{#4}{#3}{#3 \ #4}}
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge\bfseries SANYAM KAUL} \\
+    \vspace{2pt}
+    \small kaulsanyam@gmail.com | +91-7018498338
+\end{center}
+
+% Education
+\section{Education}
+\resumeHeading{M.Tech Computer Science \& Engineering}{IIT Hyderabad}{2025}{CGPA: 8.90}
+\resumeHeading{B.Tech Computer Science \& Engineering (Networks \& Security)}{VIT-AP University, Amaravati}{2021}{CGPA: 8.90}
+
+% Experience
+\section{Experience}
+\resumeHeading{Data Engineer}{Netradyne}{July 2025 - Present}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Designed and implemented AWS Monitoring Dashboard for infrastructure cost optimization, processing real-time metrics from EC2 instances, ASGs, and CloudWatch APIs to enable data-driven decision making and reduce infrastructure costs}
+    \resumeItem{Built and optimized data pipelines using Python for Kubernetes EKS logging infrastructure, integrating rsyslog sidecar containers for real-time log streaming and forwarding to centralized monitoring systems}
+    \resumeItem{Developed ETL workflows integrating Elasticsearch for log aggregation and retrieval, improving debugging efficiency for CI/CD pipelines by 40\% through structured data processing and automated log analysis}
+    \resumeItem{Engineered scalable reprocessing pipelines with TensorRT support (v8, v10), optimizing Docker-based compilation workflows and implementing modular, maintainable code architecture with backward compatibility}
+    \resumeItem{Implemented data processing solutions for FSx-based network storage, reducing overall storage costs through efficient data lake architecture and optimized data access patterns}
+\end{itemize}
+
+\resumeHeading{Tech Analyst (SDE-1)}{BlackRock}{July 2021 - June 2023}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Processed complex financial datasets from multiple sources including banks and payment processors, building Self-Service Financial Information Reporting Tool that reduced report setup time from 1.5 months to 2-3 days through automated data transformation pipelines}
+    \resumeItem{Engineered scalable data processing applications using Python and Spring Boot, implementing intricate business rules and financial calculations with 85\%+ test coverage, ensuring data integrity across different formats and structures}
+    \resumeItem{Built event-driven CI/CD pipelines on Azure DevOps for 5 business-critical servers, achieving 50\% automation in performance and integration testing through automated data validation workflows and strict SLA compliance}
+    \resumeItem{Designed and implemented REST and GraphQL API integrations for data standardization, enabling seamless data exchange across 50+ business, development, and QA teams}
+    \resumeItem{Developed real-time data processing solutions for financial metrics, ensuring accurate transaction processing, settlement, and reconciliation workflows with time-bound processing requirements}
+\end{itemize}
+
+\resumeHeading{Tech Intern}{BlackRock}{January 2021 - July 2021}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Built real-time data visualization dashboard using Golang and Angular, processing CI/CD pipeline metrics and failure statistics from Azure DevOps APIs}
+    \resumeItem{Implemented backend service for data streaming, fetching and processing CI/CD metrics to enable proactive monitoring and alerting}
+\end{itemize}
+
+% Projects
+\section{Projects}
+\resumeHeading{HyperLedger Fabric Blockchain Optimization - M.Tech Thesis}{\href{https://arxiv.org/abs/2509.07425}{arXiv:2509.07425}}{IIT Hyderabad}{2024-2025}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Optimized core architecture of HyperLedger Fabric distributed blockchain system to reduce transaction failure rate, improving overall system efficiency and reliability}
+    \resumeItem{Designed and implemented distributed system optimizations focusing on transaction processing, consensus mechanisms, and network architecture for enhanced performance}
+    \resumeItem{Presented research findings at Indosys 2025 Conference, demonstrating expertise in building and optimizing complex distributed systems from scratch}
+    \resumeItem{Published research paper on blockchain architecture improvements, showcasing deep understanding of distributed systems, performance tuning, and system optimization}
+\end{itemize}
+
+\resumeHeading{WineSecretHK - RAG-based AI Food \& Wine Pairing System}{\href{https://rag.winesecrethk.com/docs}{rag.winesecrethk.com/docs}}{}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Built RAG-based AI system with HyDE-inspired algorithm for flavor profile matching using vector similarity search; algorithm submitted for patent}
+    \resumeItem{Implemented data pipeline with FastAPI backend, AWS RDS for structured data storage, and ChromaDB vector database for efficient similarity search and retrieval}
+    \resumeItem{Designed event-driven architecture with webhook integrations for Stripe payments and Eats365 ordering platform, ensuring real-time data synchronization and transaction processing}
+\end{itemize}
+
+% Technical Skills
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{\textbf{Programming:} Java, Python, TypeScript, JavaScript, Golang, C++; Strong OOPS concepts, modular and structured code design, excellent problem-solving skills}
+    \resumeItem{\textbf{Big Data \& Streaming:}  Real-time data processing, Event-driven architectures, Distributed data processing}
+    \resumeItem{\textbf{Cloud Platforms:} AWS (EC2, EKS, S3, FSx, CloudWatch, Cost Explorer APIs, RDS), Azure DevOps}
+    \resumeItem{\textbf{Data Warehousing \& Modeling:} AWS RDS, MySQL, MongoDB, Sybase, ChromaDB, S3 data lakes, Google Cloud Storage}
+    \resumeItem{\textbf{ETL \& Orchestration:} CI/CD pipelines, Jenkins, Data transformation workflows, Automated data processing}
+    \resumeItem{\textbf{Distributed Systems:} HyperLedger Fabric, Blockchain architecture, Consensus mechanisms, System optimization, Performance tuning}
+    \resumeItem{\textbf{DevOps \& Tools:} Docker, Kubernetes, Git, Jira, Confluence, Elasticsearch, REST APIs, GraphQL, Version control}
+\end{itemize}
+
+% Achievements
+\section{Achievements}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{4/5 star rating in BlackRock annual employee ratings (2021, 2022)}
+    \resumeItem{Published research paper on HyperLedger Fabric blockchain optimization (arXiv:2509.07425); Presented at Indosys 2025 Conference}
+    \resumeItem{1st position in IITH ML Hackathon; 15th position (out of 100+ teams) in IITH Deep Learning Hackathon}
+    \resumeItem{1st position in Object Oriented Programming course (100+ students); 450+ problems solved on LeetCode}
+\end{itemize}
+
+\end{document}
