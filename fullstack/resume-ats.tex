@@ -5,14 +5,21 @@
 \usepackage{titlesec}
 \usepackage{array}
 \usepackage{etoolbox}
+\usepackage{xcolor}
+\usepackage[normalem]{ulem}
 \usepackage[pdfusetitle]{hyperref}
 \hypersetup{
-    colorlinks=false,
-    pdfborder={0 0 0},
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue,
     pdftitle={Sanyam Kaul - Resume},
     pdfauthor={Sanyam Kaul},
     pdfsubject={Resume}
 }
+% Make all links blue and underlined for visibility
+\let\oldhref\href
+\renewcommand{\href}[2]{\oldhref{#1}{\underline{\textcolor{blue}{#2}}}}
 
 \pagestyle{empty}
 \setlength{\parskip}{0pt}
@@ -39,7 +46,8 @@
 \begin{center}
     {\Large\bfseries SANYAM KAUL} \\
     \vspace{0pt}
-    \small kaulsanyam@gmail.com \;|\; +91-7018498338
+    \small kaulsanyam@gmail.com \;|\; +91-7018498338 \\
+    \small \href{https://www.linkedin.com/in/kaulmesanyam/}{LinkedIn} \;|\; \href{https://leetcode.com/u/kaulmesanyam/}{LeetCode} \;|\; \href{https://x.com/kaulmesanyam}{X}
 \end{center}
 \vspace{1pt}
 
@@ -63,14 +71,19 @@
     \resumeItem{Full-stack development for financial reporting systems}
 \end{itemize}
 
-\resumeHeading{Founding Member (AI Architect)}{WineSecretHK (HK-Tech 300)}{Freelance}{}
+\resumeHeading{Founding Member (AI Architect)}{\href{https://www.winesecrethk.com/}{WineSecretHK} (Major investor - HK Tech 300)}{Entrepreneurship}{}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{HyDE-inspired RAG-based AI for wine/food pairings; algorithm submitted for patent}
+    \resumeItem{HyDE-inspired RAG-based AI for wine/food pairings (\href{https://rag.winesecrethk.com/docs}{RAG API}); algorithm submitted for patent}
 \end{itemize}
 
-\resumeHeading{Developer}{Looks Maxing AI; Car Insurance OCR POC}{Freelance}{}
+\resumeHeading{AI Engineer}{Looks Maxing AI}{Freelance}{}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{Looks Maxing AI: outfit/makeup recommendations and AI virtual try-on. OCR POC: structured extraction from policy PDFs (OCR + GPT, JSON schema) \href{https://github.com/kaulmesanyam/ocr-extractor}{[GitHub]}}
+    \resumeItem{AI platform for outfit/makeup recommendations and AI-based virtual try-on (\href{https://www.looksmaxxing.in/}{looksmaxxing.in})}
+\end{itemize}
+
+\resumeHeading{AI Engineer}{Car Insurance OCR POC}{Freelance}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Python-based system extracting structured data from car insurance policy PDFs using OCR and OpenAI GPT; JSON schema output (\href{https://github.com/kaulmesanyam/ocr-extractor}{GitHub})}
 \end{itemize}
 
 \section{Projects}
@@ -79,19 +92,19 @@
     \resumeItem{Optimized architecture to reduce transaction failure rate; Indosys 2025; \href{https://arxiv.org/abs/2509.07425}{arXiv:2509.07425}}
 \end{itemize}
 
-\resumeHeading{RAG-based Wine \& Food Pairing (WineSecretHK)}{Python, AWS RDS, Chroma DB, FastAPI}{}{}
+\resumeHeading{RAG-based Wine \& Food Pairing (\href{https://www.winesecrethk.com/}{WineSecretHK})}{Python, AWS RDS, Chroma DB, FastAPI}{}{}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{HyDE-inspired algorithm (flavour decomposition, hypothetical match, cosine similarity); patent submitted; multi-modal input. Stripe \& Eats365 webhooks for OMS}
+    \resumeItem{HyDE-inspired algorithm (flavour decomposition, hypothetical match, cosine similarity); patent submitted; multi-modal input. \href{https://rag.winesecrethk.com/docs}{RAG API}. Stripe \& Eats365 webhooks for OMS}
 \end{itemize}
 
 \resumeHeading{Fraud Detection \& Synthetic Data (VAE)}{Python, PyTorch}{}{}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{VAE for anomaly detection (91\%+ accuracy); VAE for synthetic data from latent space}
+    \resumeItem{VAE for anomaly detection (91\%+ accuracy); VAE for synthetic data from latent space (\href{https://github.com/kaulmesanyam/IITH_MTech/blob/main/Sem_2/Fraud_Analytics/Fraud_Detection_Using_an_Autoencoder_and_Variational_Autoencoder.zip}{Fraud Detection}, \href{https://github.com/kaulmesanyam/IITH_MTech/blob/main/Sem_2/Fraud_Analytics/Synthetic_data_generation_usin_Variational_Autoencoder.zip}{Synthetic VAE})}
 \end{itemize}
 
 \resumeHeading{DL from Scratch; Hackathons}{Python, NumPy, PyTorch}{}{}
 \begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{CNN, RNN, ViT, Autoencoder, VAE from scratch. IITH FoML 2023: 1st place (ensemble). IITH DL 2024: 15th/100+ (ResNet, DenseNet, ViT)}
+    \resumeItem{CNN, RNN, ViT, Autoencoder, VAE from scratch (\href{https://github.com/kaulmesanyam/IITH_MTech/tree/main/Sem_2/DL}{GitHub}). IITH FoML 2023: 1st place (ensemble). IITH DL 2024: 15th/100+ (ResNet, DenseNet, ViT)}
 \end{itemize}
 
 \section{Skills}
