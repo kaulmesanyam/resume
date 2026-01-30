@@ -23,8 +23,12 @@
 
 % Custom commands
 \newcommand{\resumeItem}[1]{\item\small{#1}}
+\newlength{\resumeLeftCol}
+\newlength{\resumeRightCol}
+\setlength{\resumeLeftCol}{0.65\textwidth}
+\setlength{\resumeRightCol}{0.3\textwidth}
 \newcommand{\resumeHeading}[4]{
-  \begin{tabular*}{\textwidth}[t]{p{0.65\textwidth}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{0.3\textwidth}}
+  \begin{tabular*}{\textwidth}{@{}p{\resumeLeftCol}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{\resumeRightCol}@{}}
     \textbf{#1} & \textit{#2} \\
     & \textit{\ifstrempty{#4}{#3}{#3 \ #4}}
   \end{tabular*}

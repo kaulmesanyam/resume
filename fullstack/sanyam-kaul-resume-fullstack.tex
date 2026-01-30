@@ -1,0 +1,120 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{etoolbox}
+\usepackage[pdfusetitle]{hyperref}
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+    pdftitle={Sanyam Kaul - Software Development Engineer Resume},
+    pdfauthor={Sanyam Kaul},
+    pdfsubject={Resume}
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newlength{\resumeLeftCol}
+\newlength{\resumeRightCol}
+\setlength{\resumeLeftCol}{0.65\textwidth}
+\setlength{\resumeRightCol}{0.3\textwidth}
+\newcommand{\resumeHeading}[4]{
+  \begin{tabular*}{\textwidth}{@{}p{\resumeLeftCol}@{\extracolsep{\fill}}>{\raggedleft\arraybackslash}p{\resumeRightCol}@{}}
+    \textbf{#1} & \textit{#2} \\
+    & \textit{\ifstrempty{#4}{#3}{#3 \ #4}}
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge\bfseries SANYAM KAUL} \\
+    \vspace{2pt}
+    \small kaulsanyam@gmail.com | +91-7018498338
+\end{center}
+
+% Education
+\section{Education}
+\resumeHeading{M.Tech Computer Science \& Engineering}{IIT Hyderabad}{2025}{CGPA: 8.90}
+\resumeHeading{B.Tech Computer Science \& Engineering (Networks \& Security)}{VIT-AP University, Amaravati}{2021}{CGPA: 8.90}
+
+% Experience
+\section{Experience}
+\resumeHeading{Data Engineer}{Netradyne}{July 2025 - Present}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Designed and implemented scalable full-stack monitoring platform with real-time data processing, handling high-volume metrics from distributed systems using REST APIs and event-driven architecture}
+    \resumeItem{Built production-grade microservices and APIs using Python, implementing scalable logging infrastructure with Kubernetes for real-time data streaming and processing at scale}
+    \resumeItem{Developed high-performance data processing pipelines integrating Elasticsearch for real-time search and analytics, improving system observability and debugging efficiency by 40\%}
+    \resumeItem{Engineered scalable data processing systems with optimized workflows, implementing modular architecture, backward compatibility, and automated deployment pipelines}
+    \resumeItem{Automated infrastructure provisioning and deployment via CI/CD pipelines, reducing operational overhead by 60\% and ensuring high system availability}
+\end{itemize}
+
+\resumeHeading{Tech Analyst (SDE-1)}{BlackRock}{July 2021 - June 2023}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Developed production-grade full-stack financial platform using Angular and Spring Boot, processing high-volume financial transactions and reducing operational latency from 1.5 months to 2-3 days through optimized data pipelines}
+    \resumeItem{Engineered scalable microservices architecture using Java and Spring Boot, implementing complex financial business logic, payment processing workflows, and transaction validation with 85\%+ test coverage, ensuring data consistency and reliability}
+    \resumeItem{Built robust CI/CD infrastructure for mission-critical financial systems, achieving 50\% automation in testing and deployment, ensuring zero-downtime releases and strict compliance with financial regulations}
+    \resumeItem{Designed and implemented scalable REST and GraphQL APIs for financial data processing, enabling real-time transaction handling, payment reconciliation, and seamless integration across 50+ teams with secure authentication}
+    \resumeItem{Developed high-performance real-time processing systems for financial transactions, ensuring accurate payment settlement, fraud detection, and compliance with strict SLA requirements for financial operations}
+    \resumeItem{Collaborated in cross-functional Agile teams, working closely with product managers and business stakeholders to design scalable solutions, estimate effort, and deliver high-quality financial technology products}
+\end{itemize}
+
+\resumeHeading{Tech Intern}{BlackRock}{January 2021 - July 2021}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Built scalable full-stack real-time monitoring platform using Angular and Golang, processing high-frequency metrics and transaction data with low-latency API integrations}
+    \resumeItem{Implemented high-performance backend services for real-time data streaming and processing, enabling proactive system monitoring, alerting, and analytics for financial operations}
+\end{itemize}
+
+% Startup / Contract Experience
+\resumeHeading{Software Engineer (Contract)}{WineSecretHK (Funded Startup)}{Contract}{}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Built production-ready full-stack application with AI-powered recommendation engine, processing real-time user requests and payment transactions at scale; algorithm submitted for patent}
+    \resumeItem{Implemented scalable microservices architecture with FastAPI backend, handling high-concurrency requests, payment processing, and real-time data synchronization with AWS infrastructure}
+    \resumeItem{Designed event-driven payment processing system with Stripe integration, ensuring secure transaction handling, real-time payment reconciliation, and reliable order fulfillment workflows}
+    \resumeItem{Developed high-performance RESTful APIs for multi-modal data processing, implementing secure authentication, rate limiting, and scalable request handling for production workloads}
+\end{itemize}
+
+% Projects
+\section{Projects}
+\resumeHeading{HyperLedger Fabric Blockchain Optimization - M.Tech Thesis}{\href{https://arxiv.org/abs/2509.07425}{arXiv:2509.07425}}{IIT Hyderabad}{2024-2025}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{Optimized distributed blockchain architecture for high-throughput transaction processing, reducing failure rates and improving system scalability for financial applications}
+    \resumeItem{Designed and implemented performance optimizations for transaction processing systems, focusing on consensus mechanisms, network architecture, and real-time data synchronization}
+    \resumeItem{Published research on scalable distributed systems architecture, demonstrating expertise in building high-performance, fault-tolerant systems for financial technology applications}
+\end{itemize}
+
+% Technical Skills
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{\textbf{Backend Technologies:} Java, Spring Framework, Spring Boot, Hibernate, REST APIs, GraphQL, Microservices Architecture, Python, Golang}
+    \resumeItem{\textbf{Frontend Technologies:} HTML, CSS, JavaScript, TypeScript, Angular, React.js, Express.js, Responsive Web Design}
+    \resumeItem{\textbf{Databases:} MySQL, MongoDB, PostgreSQL, AWS RDS, Redis (caching), Database optimization, Transaction management}
+    \resumeItem{\textbf{Cloud \& DevOps:} AWS (EC2, EKS, S3, CloudWatch, RDS, API Gateway, Lambda), Azure DevOps, Docker, Kubernetes, Jenkins, CI/CD, Infrastructure as Code}
+    \resumeItem{\textbf{System Design:} Scalable Architecture, Microservices, Event-driven systems, High-availability systems, Load balancing}
+    \resumeItem{\textbf{Messaging \& Event-Driven:} Kafka, RabbitMQ, Real-time data processing, Event streaming, Message queues}
+    \resumeItem{\textbf{Testing \& Quality:} JUnit, Integration Testing, Test-driven development, 85\%+ code coverage, Performance testing}
+    \resumeItem{\textbf{Agile \& Tools:} Scrum, Agile methodologies, Jira, Confluence, Git, Elasticsearch, Monitoring and Observability}
+    \resumeItem{\textbf{Security \& Payments:} JWT, OAuth2, Payment Gateway Integration, Secure API design, Transaction Security}
+\end{itemize}
+
+% Achievements
+\section{Achievements}
+\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
+    \resumeItem{4/5 star rating in BlackRock annual employee ratings (2021, 2022); Promotion nomination to Associate (SDE-2) for 2024}
+    \resumeItem{Published research paper on HyperLedger Fabric blockchain optimization (arXiv:2509.07425); Presented at Indosys 2025 Conference}
+    \resumeItem{1st position in IITH ML Hackathon; 15th position (out of 100+ teams) in IITH Deep Learning Hackathon}
+    \resumeItem{1st position in Object Oriented Programming course (100+ students); 650+ problems solved on LeetCode}
+\end{itemize}
+
+\end{document}

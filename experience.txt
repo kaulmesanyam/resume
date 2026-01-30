@@ -1,0 +1,34 @@
+BlackRock: -
+
+    Tech Analyst (SDE-1): Jul, 2021 - Jun, 2023
+    Tech Intern: Jan, 2021 - Jul, 2021
+
+    Skills used - Java, TypeScript, JavaScript, Python, Golang, Angular, Spring Boot, Express (Node.js), MySQL, MongoDB, Sybase, Azure DevOps, REST APIs, GraphQL APIs, CI/CD, Git, Jira, Confluence
+
+     Developed a full-stack Self-Service Financial Information Reporting Tool using Angular and Spring Boot, reducing report setup time from 1.5 months to 2-3 days.
+
+Netradyne: -
+
+    Data Engineer : Jul 2025 - present
+
+    Skills used - Python, aws (ec2, EKS, ASG, S3 FSx, cloudwatch and cost explorer apis), docker, mongodb
+
+    Implemented AWS Monitoring Dashboard which lets users monitor the handcreated instances on the alert KPI tool along with their mentrics and cost. Estimated reduction in monthly aws bill - USD 10k - 20k 
+
+
+Freelancing / Entrepreneurship : - 
+    WinesecretHK: - 
+        URL - https://www.winesecrethk.com/
+        1. Founding member (AI Architect) of WinesecretHK, a HongKong based start-up. Currently funded by HK-Tech 300 
+        2. Developed a HyDE inspired RAG based AI engine for wine and food pairings generation for asian palette. Algorithm submission planned for patent. 
+
+    Looks Maxing AI : - 
+        URL - https://www.looksmaxxing.in/
+        1. Developed an AI platform where users can ask for outfit and makeup recommendations, and Generate images of them in an outfit of their choice using the AI based virtual try on.
+    
+    Car Insurance Policy Extraction POC
+        Github URL - https://github.com/kaulmesanyam/ocr-extractor
+        1. A Python-based proof-of-concept system that extracts structured data from car insurance policy PDFs using OCR and AI (OpenAI GPT), outputting JSON conforming to a defined schema.
+
+
+
