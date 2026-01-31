@@ -5,7 +5,22 @@ BlackRock: -
 
     Skills used - Java, TypeScript, JavaScript, Python, Golang, Angular, Spring Boot, Express (Node.js), MySQL, MongoDB, Sybase, Azure DevOps, REST APIs, GraphQL APIs, CI/CD, Git, Jira, Confluence
 
-     Developed a full-stack Self-Service Financial Information Reporting Tool using Angular and Spring Boot, reducing report setup time from 1.5 months to 2-3 days.
+    As tech analysit (SDE-1) : -
+
+    Developed full-stack Self-Service Financial Information Reporting Tool (Angular, Spring Boot), reducing report setup time from 1.5 months to 2-3 days
+    Engineered scalable applications using Angular, Python, and Spring Boot with 85%+ test coverage, focusing on architecture and design patterns
+    Implemented CI/CD pipelines on Azure DevOps for 5 business-critical servers, achieving 50% automation in performance and integration testing
+    Spearheaded REST and GraphQL API integration, standardizing workflows across 50+ business, development, and QA teams
+    Mentored 3 interns through BlackRock’s Buddy program, facilitating smooth onboarding and technical skill development
+
+    As Tech Intern : - 
+
+    As part of my Internship project, I worked on creating a web application that would display Azure DevOps statistics to the developer enabling the user 
+    to manage work efficiently. Led a team of 4 to build an Angular-based front-end that would display statistics like total pipeline runs, test case pass/fail 
+    percentage with details, etc to the developer. Engineered the back-end of the application in GoLang which incorporated API calls to get developer-relevant 
+    data from ADO databases.
+
+
 
 Netradyne: -
 
@@ -13,14 +28,44 @@ Netradyne: -
 
     Skills used - Python, aws (ec2, EKS, ASG, S3 FSx, cloudwatch and cost explorer apis), docker, mongodb
 
-    Implemented AWS Monitoring Dashboard which lets users monitor the handcreated instances on the alert KPI tool along with their mentrics and cost. Estimated reduction in monthly aws bill - USD 10k - 20k 
+    1. EKS logging: updated the kubernetes configs of alert kpi compilation to make sure that the rsyslog sidecar is added to the pod which monitors the compilation logs and forwards it to metric mahine.   
+    2. added funcitonality on front end to download compilation logs of a specific job by pressing a button. elastic search is used to find the correct logs.   
+    3. Updated bash scripts to introduce reporcessing commands which use tensorRT 8 and 10 libraries. earlier only tensorRT7 library support was there.   
+    4. got a jenkins job ready for analytics_ec2_environment repo which takes the latest code and syncs it with the S3 bucket from where it is then fetched to set up new ec2 environments   
+    5. Added support of In Service Instances AWS metric in alert kpi recent job table. users can now see the current in service instances of respective ASGs in the table. Earlier users could only see the desired instances metric on the table.   
+    6. Added _ALL locale support in alert-kpi tool in dataset creation. WHen a new dataset creation job is executed it divides the ids into different groups based of locale. I added a group - _All which holds all the ids which are provided in the job. Ensured that the update is backward compaitble. This way, any old dataset can be updated and the newly fored locale groups will include the _ALL group as well. This is useful for model training teams when they want to train models with all the ids (earlier they had to manually collect all the ids by accessing each group separatly)   
+    7. Added a bash based flag in reprocessing process which is used to turn on forced compilation of analytics code. there are different docker images to compile analytics code base for differnet tensorRT libraries. Now its the reponsibility of a separate team to maintain these images. the reprocessing process should not compile the code base. it should just use the provided docker image. Hence, i updated the reprocessing code to NOT compile analytics codebase by default and added a --flag which when set to true will forcefully compile the codebase.   
+    8. alert kpi tool had a bud in which the correct failure details were now provided to the user in case of a complete analoymization failure. resolved it.   
+    9. Implemented AWS Monitoring Dashboard which lets users view the handcreated instances on the alert KPI tool along with their mentrics and cost. 
+    10. Implemented additional functionalities in the dashbaord like manual start/ stop of instances on the bases of ownership, auto on/off scheduling, machine insights which will be part of the next phase release of dashboard.   
+    11. set-up the shared FSx based network drive for EC2 machines in the initiative to reduce overall storage cost.
+    12. The AWS dashbaord and FSx storate improvements are estimated to reduce the total AWS cost by 10-15%. 
+
+
 
 
 Freelancing / Entrepreneurship : - 
+
     WinesecretHK: - 
-        URL - https://www.winesecrethk.com/
-        1. Founding member (AI Architect) of WinesecretHK, a HongKong based start-up. Currently funded by HK-Tech 300 
-        2. Developed a HyDE inspired RAG based AI engine for wine and food pairings generation for asian palette. Algorithm submission planned for patent. 
+        URL - https://www.winesecrethk.com/ , https://rag.winesecrethk.com/docs
+        Founding member (AI Architect) of WinesecretHK, a HongKong based start-up. Currently funded by HK-Tech 300 (An angel Fund which invests in HOngKong's emerging start-ups)
+        
+        RAG Based AI Food and Wine Pairing system (https://rag.winesecrethk.com/docs) : - 
+
+        Tech stack - Python, AWS RDS, Chroma DB , Fast API
+            1. Build a RAG based AI system which matches wine and food options on the bases of their flavour profiles. 
+            2. Constructed a HyDE inspired algorithm for pairing generations which destructs the wine and food dish into 
+            multiple flavour constituents, then constructs the hypothetical best match and finally uses cosine similarity
+            on the RAG knowledgebase to get top k best matches. Algorightm has been sumitted for patent.
+            3. The AI server has multi-modal input functionality where the user can ask query in text, audio, and 
+            attach files, images.
+            4. The system automatically identifies the user query intent and responds accordingly. 
+
+        Stripe payments and Eats365 integration : - 
+
+            1. Build webhooks to integrate Stripe payments and Eats365 ordering platfrom with 
+            WineSecretHK's Order Management System platform.
+            2. Studied and implemented server side callbacks, webhook processing.
 
     Looks Maxing AI : - 
         URL - https://www.looksmaxxing.in/

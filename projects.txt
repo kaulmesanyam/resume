@@ -1,21 +1,3 @@
-WineSecretHK (https://www.winesecrethk.com/) : -
-    RAI Based AI Food and Wine Pairing system (https://rag.winesecrethk.com/docs) : - 
-
-        Tech stack - Python, AWS RDS, Chroma DB , Fast API
-        1. Build a RAG based AI system which matches wine and food options on the bases of their flavour profiles. 
-        2. Constructed a HyDE inspired algorithm for pairing generations which destructs the wine and food dish into 
-        multiple flavour constituents, then constructs the hypothetical best match and finally uses cosine similarity
-        on the RAG knowledgebase to get top k best matches. Algorightm has been sumitted for patent.
-        3. The AI server has multi-modal input functionality where the user can ask query in text, audio, and 
-        attach files, images.
-        4. The system automatically identifies the user query intent and responds accordingly. 
-
-    Stripe payments and Eats365 integration : - 
-
-        1. Build webhooks to integrate Stripe payments and Eats365 ordering platfrom with 
-        WineSecretHK's Order Management System platform.
-        2. Studied and implemented server side callbacks, webhook processing.
-
 M.Tech Projects (IIT Hyderabad): -
 
     Thesis: -
@@ -23,36 +5,34 @@ M.Tech Projects (IIT Hyderabad): -
         Conference - Presented the work at Indosys 2025 Conference
         Optimized the core architecture of the HyperLedger Fabric blockchain in order to reduce the transaction failure rate, thereby making the blockchain more efficient.
 
-    Machine Learning and Deep Learning Projects: -
 
-        Car Insurance Policy Extraction POC
-            Github URL - http://github.com/kaulmesanyam/ocr-extractor
-            A Python-based proof-of-concept system that extracts structured data from car insurance policy PDFs using OCR and AI (OpenAI GPT), outputting JSON conforming to a defined schema
+Machine Learning and Deep Learning Projects: -
 
-        Financial Fraud Detection using Variational Autoencoder
-            Github URL - https://github.com/kaulmesanyam/IITH_MTech/blob/main/Sem_2/Fraud_Analytics/Fraud_Detection_Using_an_Autoencoder_and_Variational_Autoencoder.zip
-            Tech Stacl = Python , Pytorch
-            1. Developed a VAE model which detects anomalies in credit card / financial transactions and highlights them as fraudulent transactions which more than 91% accuracy. 
+    
+    Financial Fraud Detection using Variational Autoencoder
+        Github URL - https://github.com/kaulmesanyam/IITH_MTech/blob/main/Sem_2/Fraud_Analytics/Fraud_Detection_Using_an_Autoencoder_and_Variational_Autoencoder.zip
+        Tech Stacl = Python , Pytorch
+        1. Developed a VAE model which detects anomalies in credit card / financial transactions and highlights them as fraudulent transactions which more than 91% accuracy. 
 
-        Synthetic Data Generation using Variational Autoencoder : -
-            Github URL - https://github.com/kaulmesanyam/IITH_MTech/blob/main/Sem_2/Fraud_Analytics/Synthetic_data_generation_usin_Variational_Autoencoder.zip
-            A VAE model which takes original data as input and generates synthetic data from the original data's latent space making sure the synthetic data accurately resembles the original data. 
+    Synthetic Data Generation using Variational Autoencoder : -
+        Github URL - https://github.com/kaulmesanyam/IITH_MTech/blob/main/Sem_2/Fraud_Analytics/Synthetic_data_generation_usin_Variational_Autoencoder.zip
+        A VAE model which takes original data as input and generates synthetic data from the original data's latent space making sure the synthetic data accurately resembles the original data. 
 
-        Deep Learning Architectures (Built from Scratch): -
-            Github URL - https://github.com/kaulmesanyam/IITH_MTech/tree/main/Sem_2/DL
-            Tech stack - Python, NumPy, Deep Learning fundamentals
-            1. Engineered complex deep learning architectures from scratch: CNN, RNN, ViT, Autoencoder, Variational Autoencoder.
-            2. Implemented core deep learning concepts including backpropagation, MLP, and comparative model analysis.
+    Deep Learning Architectures (Built from Scratch): -
+        Github URL - https://github.com/kaulmesanyam/IITH_MTech/tree/main/Sem_2/DL
+        Tech stack - Python, NumPy, Deep Learning fundamentals
+        1. Engineered complex deep learning architectures from scratch: CNN, RNN, ViT, Autoencoder, Variational Autoencoder.
+        2. Implemented core deep learning concepts including backpropagation, MLP, and comparative model analysis.
 
-        IITH FoML Hackathon 2023 (1st Place): -
-            Tech stack - Python, Scikit-learn, Ensemble Methods
-            1. Won 1st place with a voting-based ensemble model using Random Forest and Gradient Boosting.
-            2. Implemented ensemble learning techniques to combine predictions from multiple models for improved accuracy.
+    IITH FoML Hackathon 2023 (1st Place): -
+        Tech stack - Python, Scikit-learn, Ensemble Methods
+        1. Won 1st place with a voting-based ensemble model using Random Forest and Gradient Boosting.
+        2. Implemented ensemble learning techniques to combine predictions from multiple models for improved accuracy.
 
-        IITH Deep Learning Hackathon 2024 (15th out of 100+ teams): -
-            Tech stack - Python, PyTorch/TensorFlow, Deep Learning frameworks
-            1. Ranked 15th out of 100+ teams by implementing advanced deep learning architectures.
-            2. Implemented and compared multiple state-of-the-art models: ResNet variants, DenseNet, ResNext, and Vision Transformer (ViT).
-            3. Performed extensive model comparison and hyperparameter tuning to achieve competitive results.
+    IITH Deep Learning Hackathon 2024 (15th out of 100+ teams): -
+        Tech stack - Python, PyTorch/TensorFlow, Deep Learning frameworks
+        1. Ranked 15th out of 100+ teams by implementing advanced deep learning architectures.
+        2. Implemented and compared multiple state-of-the-art models: ResNet variants, DenseNet, ResNext, and Vision Transformer (ViT).
+        3. Performed extensive model comparison and hyperparameter tuning to achieve competitive results.
 
     

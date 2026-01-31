@@ -1,0 +1,76 @@
+                                        Mayuresh Dindorkar
+                      # dmayuresh99@gmail.com            9423838280      + Bengaluru, Karnataka
+              ï linkedin.com/in/mayuresh-dindorkar-b87527168           § github.com/Mayureshdindorkar
+PROFESSIONAL SUMMARY
+Data Scientist with 2.5+ years of experience building production softwares, now specializing in Agentic and Generative AI.
+MTech from IIT Hyderabad with 9 research papers published in AI domain (100+ citations).
+EDUCATION                                                        tency.
+Master of Technology                             2023–2025     • Increased JUnit test coverage from 60% to 94% and
+Computer Science & Engineering                                   strengthened security posture across API endpoints.
+IIT Hyderabad | CGPA: 9.39/10                                  • Built PoC for usage tracking and billing system using
+                                                                 Golang and React-Redux
+Bachelor of Engineering                          2017–2021     • Tech stack: Java, SpringBoot, React-Redux, TypeScript,
+Computer Engineering                                             Golang, Kubernetes, Hibernate, Azure.
+PCCOE, Pune | CGPA: 9.55/10
+                                                               Software Engineer                    Jul 2021 – Oct 2021
+TECHNICAL SKILLS                                               Persistent Systems, Pune
+                                                               • Implemented features for Knee Surgery Automation soft-
+AI/ML: PyTorch, TensorFlow, Scikit-learn, Keras, ONNX
+                                                                 ware using C++, Qt, VTK, and MITK.
+Generative AI: LLMs, RAG, Fine-tuning, LoRA, QLoRA,
+PEFT, Prompt Engineering                                       Software Engineering Intern       Jan 2021 – July 2021
+Agentic AI: LangChain, LangGraph, CrewAI, FastMCP, OpenAI      Persistent Systems, Pune
+SDK, LangSmith                                                 • Developed C++ projects by using OOD concepts, shell
+Deep Learning: CNN, RNN, LSTM, Transformers, VAE, GAN,           scripting, Git, Docker, etc.
+Diffusion Models
+Computer Vision: Object Detection, OpenCV                      KEY ML/AI PROJECTS
+NLP: NLU, NLG, Sentiment Analysis, Text Classification, NER    Domain Generalization with VLM | MTech Thesis
+MLOps & Cloud: Docker, Kubernetes, AWS, Azure, MLflow,         Developed KASNet using Black-Box Knowledge Distillation
+Airflow, W&B, CI/CD                                            from CLIP and Active Learning for classification of images
+Data Engineering: SQL, NoSQL, PySpark, Hadoop, Kafka,          from unseen domains. Implemented Bayesian Neural Net-
+MongoDB, PostgreSQL, Redis, Vector databases (FAISS)           works with MC dropout to minimize VLM queries and re-
+Data Science: Numpy, Pandas, Matplotlib                        duce operational costs in client-vendor setups. Tech stack:
+Languages: Python, Java, C++, Golang, JS/TS                    PyTorch, Python, Streamlit
+Frameworks: FastAPI, Flask, Django, SpringBoot, Streamlit,
+React-Redux, Qt, Bun                                           Face Liveness Detection System | 5 Research Papers
+                                                               Developed 5 novel deep learning methodologies to detect face
+RESEARCH PUBLICATIONS                        G. Scholar       presentation attacks (print, video, cut-photo) with superior
+• 5 Papers: Face Liveness Detection (IEEE, Elsevier)           anti-spoofing performance across benchmark datasets.
+                                                               Tech stack: TensorFlow, Keras, Python
+• 2 Paper: COVID-19 Identification from chest X-rays
+• 1 Paper: Land Usage Identification from Satellite images     Multi-Agent Travel Planner | Live Demo
+• 1 Paper: Domain Generalization, Vision-Language models       Engineered multi-agent system with CrewAI and LangChain
+                                                               generating personalized itineraries using LLMs with
+• 1 Paper: Cryptographic Security
+                                                               flight/hotel recommendations and downloadable outputs.
+ACHIEVEMENTS                                                   Tech stack: LLM, CrewAI, LangChain, Streamlit Cloud,
+                                                               Streamlit, Hugging Face, Python
+• Authored 9 AI research papers (100+ citations)
+• 1st Rank - IIT-H ML Hackathon                                ChatGPT Clone with LangGraph | Live Demo
+• 300+ LeetCode Solutions, 400+ GeeksForGeeks Solutions        Built production-grade ChatGPT clone implementing HITL,
+                                                               memory persistence, streaming, MCP tool integration,
+• Silver Medal - NPTEL Java, Azure AZ-900 Certified
+                                                               RAG, and LangSmith observability. Tech stack: Lang-
+PROFESSIONAL EXPERIENCE                                        Graph, LangChain, LangSmith, Python, Streamlit, FastMCP,
+                                                               SQLite
+Data Scientist                          July 2025 – Present
+Netradyne, Bengaluru                                           RAG Document Q&A System | Live Demo
+• Architected AI-powered agent for automating Root Cause       Developed intelligent QA system with LLaMA-3, LangChain,
+  Analysis workflow using LangChain, LangGraph, and cus-       and FAISS vector database for efficient semantic search and
+  tom MCP servers, reducing analysis time by 60%.              retrieval. Tech stack: LlaMa-3, LangChain, Hugging Face,
+• Implemented prompt chaining and conditional logic achiev-    Streamlit Cloud, Streamlit, Groq, Python
+  ing 40% reduction in hallucinations and improved context     Credit Card Fraud Detection | GitHub
+  retention.                                                   Built fraud detection system using Autoencoders and Varia-
+• Optimized MongoDB queries with chunking and multi-           tional Autoencoders with TrustRank algorithm for malicious
+  threading, delivering 30% reduction in data fetch latency.   sender identification. Tech stack: PyTorch, Python
+• Integrated agent into VS Code Copilot with AWS S3 file
+                                                               ChatGPT Assistant Chrome Extension | 100+ Users
+  operations and automated report generation.
+                                                               Published Chrome extension for ChatGPT conversation man-
+• Tech stack: Python, FastMCP, LangChain, LangGraph,           agement with 100+ active users on Chrome Web Store.
+  FastAPI, MongoDB, AWS, Redis, PostgreSQL                     Tech stack: JavaScript, HTML, CSS
+Associate Software Developer           Oct 2021 – July 2023    Resume Builder | Live Demo
+SAS Research & Development, Pune                               Developed a resume builder app enabling users to create, edit,
+• Developed full-stack microservices with RESTful APIs and     save, and print resumes. Tech stack: React, Redux, Spring-
+  optimized SQL queries achieving 20% reduction in API la-     Boot, Java, MongoDB, JWT, Azure, Microservice
+
