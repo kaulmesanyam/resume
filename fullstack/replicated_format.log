@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.1)  31 JAN 2026 22:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.1)  12 FEB 2026 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,12 +334,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 42.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 []\OT1/cmr/bx/n/10 HyperLedger Fab-ric Blockchain Op-ti-miza-tion
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 198--199
+Underfull \hbox (badness 4366) in paragraph at lines 200--201
 []\OT1/cmr/bx/n/9 15th/100+ (IITH DL)\OT1/cmr/m/n/9 : Ad-vanced DL ar-chi-tec-t
 ures
  []
@@ -360,7 +360,7 @@ Package rerunfilecheck Info: File `replicated_format.out' has not changed.
 Here is how much of TeX's memory you used:
  9775 strings out of 474662
  151768 string characters out of 5751110
- 589844 words of memory out of 5000000
+ 590844 words of memory out of 5000000
  32726 multiletter control sequences out of 15000+600000
  563850 words of font info for 52 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
@@ -376,7 +376,7 @@ asic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/20
 ve/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/te
 xlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loca
 l/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on replicated_format.pdf (1 page, 136686 bytes).
+Output written on replicated_format.pdf (1 page, 136891 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
