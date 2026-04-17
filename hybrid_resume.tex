@@ -12,6 +12,8 @@
 \definecolor{secondary}{RGB}{80, 80, 80}
 \definecolor{links}{RGB}{0, 0, 255}
 
+\setlength{\parindent}{0pt}
+
 \hypersetup{
     colorlinks=true,
     linkcolor=links,
@@ -48,8 +50,9 @@
 \small
 Software Engineer with an M.Tech in Computer Science from IIT Hyderabad and 3+ years of experience in building scalable production systems and applied AI. Skilled in architecting RAG-based LLM systems, optimizing distributed data pipelines, and developing high-performance financial platforms. Proven track record of reducing cloud costs by 15\% and optimizing system latency by 6x.
 
-\vspace{-6pt}
+\vspace{6pt}
 
+\noindent
 \begin{minipage}[t]{0.38\textwidth} % Left column (38% width)
     
     % ---------- EDUCATION ----------
@@ -65,45 +68,46 @@ Software Engineer with an M.Tech in Computer Science from IIT Hyderabad and 3+ y
     
     % ---------- SKILLS ----------
     \section{Technical Skills}
-    \begin{itemize}[leftmargin=3mm, itemsep=1pt, parsep=1pt]
+    \begin{itemize}[leftmargin=*, itemsep=1pt, parsep=1pt]
         \item \textbf{Languages:} Java, Python, SQL, C++, Golang, Rust, Javascript, Shell/Bash.
         \item \textbf{AI/ML:} LLMs (RAG, Fine-tuning, PEFT, LoRA/QLoRA), Transformers, LangChain, LangGraph, VAE/Anomaly Detection, Reinforcement Learning.
         \item \textbf{Backend:} Spring Boot, FastAPI, REST, gRPC, GraphQL, Node.js, Microservices.
-        \item \textbf{Data \& Infra:} AWS (EKS, Lambda, SQS, SNS, S3, RDS), Docker, Kubernetes, Kafka, Redis.
+        \item \textbf{Data \& Infra:} Cloud (AWS, Azure), EKS, Lambda, SQS, SNS, S3, Docker, Kubernetes.
         \item \textbf{Databases:} PostgreSQL, MongoDB, ChromaDB, Elasticsearch.
         \item \textbf{Tools:} Git, Jenkins, GitHub Actions, CI/CD, Grafana, Datadog, Prometheus.
     \end{itemize}
 
     % ---------- PROJECTS (Left) ----------
     \section{Projects}
-
-        \textbf{Fraud Detection (VAE)} \\
-    \textit{Anomaly detection} \hfill \href{https://github.com/kaulmesanyam/IITH\_MTech/}{GitHub} \\
-    \vspace{-4pt}
-    \begin{itemize}[leftmargin=3mm, itemsep=1pt, parsep=1pt]
+    \textbf{Fraud Detection (VAE)} | \small \textit{Anomaly detection} \hfill \href{https://github.com/kaulmesanyam/IITH\_MTech/}{\small GitHub} \\
+    \vspace{-6pt}
+    \begin{itemize}[leftmargin=*, nosep]
         \resumeItem{Built VAE model for credit card fraud detection (91\%+ accuracy).}
+        \resumeItem{\textbf{Tech Stack:} Python, PyTorch, VAE, Scikit-Learn.}
     \end{itemize}
     
-    \textbf{Car Insurance OCR} \\
-    \textit{Structured Data Extraction} \hfill \textit{POC} \\
-    \vspace{-4pt}
-    \begin{itemize}[leftmargin=3mm, itemsep=1pt, parsep=1pt]
-        \resumeItem{Developed Python system to extract structured data from insurance PDFs using OCR and OpenAI LLMs for upper layer APIs.}
+    \vspace{4pt}
+    \textbf{Car Insurance OCR} | \small \textit{Structured Data Extraction} \hfill \small \textit{POC} \\
+    \vspace{-6pt}
+    \begin{itemize}[leftmargin=*, nosep]
+        \resumeItem{Developed Python system to extract structured data from insurance PDFs.}
+        \resumeItem{\textbf{Tech Stack:} OpenAI, Tesseract OCR, FastAPI.}
     \end{itemize}
 
-    \vspace{2pt}
-    \textbf{LooksMaxing AI Platform} \\
-    \textit{AI personalization} \hfill \href{https://www.looksmaxxing.in/}{Link} \\
-    \vspace{-4pt}
-    \begin{itemize}[leftmargin=3mm, itemsep=1pt, parsep=1pt]
-        \resumeItem{Built recommendation system using Gemini \& prompt engineering for virtual try-on.}
+    \vspace{4pt}
+    \textbf{LooksMaxing AI} | \small \textit{AI personalization} \hfill \href{https://www.looksmaxxing.in/}{\small Link} \\
+    \vspace{-6pt}
+    \begin{itemize}[leftmargin=*, nosep]
+        \resumeItem{Built recommendation system using Gemini for virtual try-on.}
+        \resumeItem{\textbf{Tech Stack:} Python, FastAPI, Gemini API.}
     \end{itemize}
 
-    \vspace{2pt}
-    \textbf{Synthetic Data (VAE)} \\
-    \vspace{-4pt}
-    \begin{itemize}[leftmargin=3mm, itemsep=1pt, parsep=1pt]
+    \vspace{4pt}
+    \textbf{Synthetic Data (VAE)} | \small \textit{VAE Latent Space} \\
+    \vspace{-6pt}
+    \begin{itemize}[leftmargin=*, nosep]
         \resumeItem{Generated datasets using VAE latent space exploration.}
+        \resumeItem{\textbf{Tech Stack:} Python, VAE, NumPy, Pandas.}
     \end{itemize}
 
 \end{minipage}
@@ -114,37 +118,40 @@ Software Engineer with an M.Tech in Computer Science from IIT Hyderabad and 3+ y
     \section{Experience}
     
     \resumeHeading{Netradyne}{Bengaluru}{Data Engineer (ML Systems)}{Jul 2025 - Present}
-    \begin{itemize}[leftmargin=3mm, itemsep=1pt, parsep=1pt]
+    \begin{itemize}[leftmargin=*, itemsep=1pt, parsep=1pt]
         \resumeItem{Designed and implemented AWS Monitoring System (Python, MongoDB, FastAPI) for machine metrics and costs (\textbf{10--15\% cost reduction}).}
         \resumeItem{Optimized Video Reprocessing System (EKS, SQS, SNS, ASGs), reducing latency from \textbf{2 hours to 20 mins} for 50K+ video dataset creation.}
         \resumeItem{Built scalable infrastructure for large-scale video feature engineering.}
+        \resumeItem{\textbf{Tech Stack:} Python, FastAPI, MongoDB, AWS (EKS, S3, SQS, SNS, CloudWatch), Dash.}
     \end{itemize}
     
     \resumeHeading{WinesecretHK}{Remote}{Founding Member (AI Architect)}{Apr 2024 - Jun 2025}
-    \begin{itemize}[leftmargin=3mm, itemsep=1pt, parsep=1pt]
+    \begin{itemize}[leftmargin=*, itemsep=1pt, parsep=1pt]
         \resumeItem{Built \textbf{RAG AI Pairing System} using Python, AWS RDS, and ChromaDB for flavour-profile matching (not just semantic search).}
         \resumeItem{Developed \textbf{HyDE-inspired RAG algorithm} for wine pairing (Patent submitted).}
         \resumeItem{Implemented multi-modal agentic workflows using LangChain and LangGraph for complex user interactions.}
         \resumeItem{Integrated Stripe payments and POS webhooks for ordering.}
+        \resumeItem{\textbf{Tech Stack:} Python, FastAPI, AWS RDS, ChromaDB, LangChain, LangGraph, Stripe.}
     \end{itemize}
     
     \resumeHeading{BlackRock}{Gurugram}{Tech Analyst (SDE-1)}{Jul 2021 - Jun 2023}
-    \begin{itemize}[leftmargin=3mm, itemsep=1pt, parsep=1pt]
+    \begin{itemize}[leftmargin=*, itemsep=1pt, parsep=1pt]
         \resumeItem{Developed full-stack Financial Information Reporting Tool (Spring Boot, Angular), reducing setup from \textbf{1.5 months to 2-3 days}.}
         \resumeItem{Standardized REST/GraphQL workflows across \textbf{50+ teams}.}
-        \resumeItem{Mentored 3 interns and facilitated team onboarding.}
+        \resumeItem{Built \textbf{Azure DevOps} analytics dashboard and improved backend test coverage to \textbf{85\%+}.}
+        \resumeItem{\textbf{Tech Stack:} Java (Spring Boot), Angular, REST, GraphQL, Golang, \textbf{Azure DevOps}.}
     \end{itemize}
     % ---------- RESEARCH & PROJECTS ----------
     \section{Research \& Publications}
     \textbf{HyperLedger Fabric Optimization} \\ 
     \textit{M.Tech Thesis | IIT Hyderabad} \hfill \href{https://arxiv.org/}{arXiv} \\
     \vspace{-4pt}
-    \begin{itemize}[leftmargin=3mm, itemsep=1pt, parsep=1pt]
+    \begin{itemize}[leftmargin=*, itemsep=1pt, parsep=1pt]
         \resumeItem{Optimized architecture to reduce failure rates. Presented at Indosys 2025.}
     \end{itemize}
     
     \section{Hackathons \& Achievements}
-    \begin{itemize}[leftmargin=3mm, itemsep=1pt, parsep=1pt]
+    \begin{itemize}[leftmargin=*, itemsep=1pt, parsep=1pt]
         \resumeItem{\textbf{1st Place (IITH FoML):} Ensemble model (Random Forest/GBDT).}
         \resumeItem{\textbf{15th/100+ (IITH DL):} Advanced DL using ResNet, ViT.}
         \resumeItem{\textbf{Deep Learning Architectures:} Implemented CNN, RNN, Transformers from scratch (NumPy).}
