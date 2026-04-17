@@ -1,187 +1,124 @@
 \documentclass[10pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=0.4in]{geometry}
+\usepackage[margin=0.45in]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{hyperref}
 \usepackage{xcolor}
-\usepackage{array}
-
-% Remove page numbers
 \pagestyle{empty}
 
-% Section formatting
 \titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{4pt}{4pt}
 
-% Custom commands
 \newcommand{\resumeItem}[1]{\item\small{#1}}
-\newcommand{\resumeHeading}[4]{
-  \noindent\textbf{#1} \hfill \textit{#2} \\
-  \textit{#3} \hfill \textit{#4}\vspace{2pt}
-}
-\newcommand{\resumeSubHeading}[4]{
-  \noindent\vspace{-1pt}\textbf{#1} \hfill \textit{#2} \\
-  \textit{#3} \hfill \textit{#4}\par\vspace{2pt}
-}
 
-% URL Formatting
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
     urlcolor=blue,
-    pdfborderstyle={/S/U/W 1} % Underline style
 }
 
 \begin{document}
 
-% --- Header ---
+% ---------- HEADER ----------
 \begin{center}
     {\Huge\bfseries SANYAM KAUL} \\ \vspace{2pt}
-    \small kaulsanyam@gmail.com $|$ +91-7018498338 \\
-    \vspace{1pt}
-    \small \href{https://www.linkedin.com/in/kaulmesanyam/}{LinkedIn} $|$ \href{https://leetcode.com/u/kaulmesanyam/}{LeetCode} $|$ \href{https://x.com/kaulmesanyam}{X (Twitter)} \\
-    \textit{MTech in Computer Science Engineering from IIT Hyderabad with 3 years of experience in building scalable production systems}
+    
+    \small kaulsanyam@gmail.com \quad | \quad +91-7018498338 \\ \vspace{2pt}
+    
+    \small
+    \href{https://www.linkedin.com/in/kaulmesanyam/}{https://www.linkedin.com/in/kaulmesanyam/} \quad
+    \href{https://leetcode.com/u/kaulmesanyam/}{https://leetcode.com/u/kaulmesanyam/} \quad
+    \href{https://github.com/kaulmesanyam/}{https://github.com/kaulmesanyam/} \\ \vspace{2pt}
+    
+    \textit{Backend Engineer | Distributed Systems | AWS | Scalable Infrastructure}
 \end{center}
 
-\vspace{0.5em}
-
-
-% --- 2-Column Layout (Equal Widths) ---
-\noindent
-\begin{minipage}[t]{0.48\textwidth} % Left Column
-
-% --- EDUCATION ---
-\section{Education}
-\resumeSubHeading{M.Tech CSE}{IIT Hyderabad}{2025}{CGPA: 8.90}
 \vspace{4pt}
-\resumeSubHeading{B.Tech CSE (Networks \& Sec)}{VIT-AP University}{2021}{CGPA: 8.90}
 
-\vspace{8pt}
-
-% --- SKILLS ---
+% ---------- SKILLS ----------
 \section{Technical Skills}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{\textbf{Languages:} Java, Python, SQL}
-    \resumeItem{\textbf{Backend:} Spring Boot, FastAPI, Node.js, REST, gRPC, GraphQL, Microservices}
-    \resumeItem{\textbf{Frontend:} Angular, React.js, Dash}
-    \resumeItem{\textbf{Data:} AWS, Azure, Docker, K8s, Elasticsearch, MongoDB, Kafka, PostgresSQL}
-    \resumeItem{\textbf{AI:}  Machine Learning, Deep Learning, Retreival Augmented Generation (RAG), ChromaDB, PyTorch, Deep Learning, GenAI, langchain, langgraph, Model Context Protocol (MCP), Autoencoders, Variational Autoencoders (VAEs), Generative Adversarial Networks (GANs), LlaMa Index, Context Engineering,  Transformers, BERT, GPT, LLMs}
-    \resumeItem{\textbf{Tools:} Git, Jenkins, Jira, Github Actions}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{\textbf{Languages:} Java, Python, SQL, Golang, Rust, Javascript, Typescript, C++, Shell, Bash LaTeX}
+    \resumeItem{\textbf{Backend:} Spring Boot, FastAPI, REST, gRPC, GraphQL, Microservices}
+    \resumeItem{\textbf{Systems \& Infra:} AWS (EKS, S3, EC2, Lambda, SQS, SNS, RDS), Docker, Kubernetes , RabbitMQ, Redis, Nginx, Prometheus, Grafana, Datadog}
+    \resumeItem{\textbf{Databases \& Streaming:} PostgreSQL, MongoDB, Kafka, Elasticsearch}
+    \resumeItem{\textbf{DevOps:} Git, Jenkins, GitHub Actions, CI/CD}
 \end{itemize}
 
-\vspace{8pt}
+\vspace{4pt}
 
-% --- EXPERIENCE (Part 1 - Current/Main) ---
+% ---------- EXPERIENCE ----------
 \section{Experience}
 
 \textbf{Netradyne} \hfill \textit{Bengaluru} \\
 \textit{Data Engineer} \hfill \textit{Jul 2025 - Present}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{Designed, planned, and implemented AWS Monitoring System (Python, MongoDB, FastAPI, Dash, AWS CloudWatch) in the internal KPI tool for machine metrics \& costs monitoring. } - \textbf{Reduced AWS costs by 10-15\%}
-    \resumeItem{Optimised the Video Reprocessing System to reprocess 10 minute vieos within 20 min (earlier 2 hours), and complete dataset creation jobs of 50k videos within 2 hours (earlier 4 hours with multiple irregularities). This included working on EKS, SQS, SNS, ASGs, S3, EC2, and other AWS offerings}
-    
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Designed and built AWS-based monitoring system (FastAPI, MongoDB, CloudWatch) to track infrastructure metrics and costs, reducing cloud spend by \textbf{10--15\%}.}
+    \resumeItem{Reduced video reprocessing latency from \textbf{2 hours to 20 minutes (6x improvement)}, enabling reliable processing of \textbf{50K+ videos within 2 hours}.}
+    \resumeItem{Built scalable distributed pipelines using \textbf{EKS, SQS, SNS, and S3}, improving system throughput and reliability for large-scale dataset generation.}
 \end{itemize}
 
-\vspace{6pt}
+\vspace{4pt}
 
 \textbf{WinesecretHK} \hfill \textit{} \\
-\textit{Founding Member (AI Architect)} \hfill \textit{April 2024 - Jun 2025}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{\href{https://rag.winesecrethk.com/docs}{RAG AI Pairing System}: Built flavour-profile matching RAG system using Python, AWS RDS, ChromaDB, FastAPI to provide food and wine pairing suggestions based on gastronomical compatibility, not just symantic embeddings.}
-    \resumeItem{Developed HyDE-inspired RAG algorithm for food/wine pairing as part of the system, which is submitted for patent.}
-    \resumeItem{Implemented multi-modal input (Text, Audio, Image) using langchain and langgraph to enable agentic behaviour with proper tool calling.}
-    \resumeItem{Integrated Stripe payments and POS webhooks to enable seamless ordering and payment processing, even with 3rd party POS systems}
-    \resumeItem{\href{https://www.winesecrethk.com/}{Website Link}}
-\end{itemize}
-
-\textbf{Car Insurance OCR Extracter POC} \hfill \textit{} \\
-\textit{AI Developer}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{Developed a Python system to extract structured data from PDFs for car insurance claims. Used OCR and OpenAI LLMs to extract data and populate the structured fields of upper layer API}
-    \resumeItem{\href{https://github.com/kaulmesanyam/ocr-extractor}{GitHub Link}}
-\end{itemize}
-
-
-
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.48\textwidth} % Right Column
-
-\textbf{BlackRock} \hfill \textit{Gurugram} \\
-\textit{Tech Analyst (SDE-1)} \hfill \textit{Jul 2021 - Jun 2023}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{Developed full-stack Financial Information Reporting Tool (Angular, Spring Boot), reducing report setup time from \textbf{1.5 months to 2-3 days}.}
-    \resumeItem{Standardized REST/GraphQL workflows across 50+ teams.}
-    \resumeItem{Mentored 3 interns, facilitating onboarding.}
-\end{itemize}
-
-\vspace{6pt}
-
-\textbf{BlackRock} \hfill \textit{Gurugram} \\
-\textit{Tech Intern} \hfill \textit{Jan 2021 - Jul 2021}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{Built Azure DevOps statistics application (Angular/Golang) to enable dev teams to view CI/CD pipeline metrics and status. Led 4-member team to deliver the application in 2 months.}
-    \resumeItem{Extened test coverage on multiple backend servers to \textbf{85\%+}.}
-    \resumeItem{Implemented CI/CD on Azure DevOps, \textbf{achieving 50\% test automation.} }
-\end{itemize}
-
-\section{Research Publication}
-
-\textbf{HyperLedger Fabric Blockchain Optimization (M.Tech Thesis)}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{Optimized HyperLedger Fabric architecture to reduce failure rates.}
-    \resumeItem{Presented at Indosys 2025. \href{https://arxiv.org/abs/2509.07425}{arXiv Link}.}
+\textit{Founding Engineer} \hfill \textit{Apr 2024 - Jun 2025}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Designed and deployed scalable backend services (FastAPI, AWS RDS) for a recommendation platform serving real-time user queries.}
+    \resumeItem{Built and optimized a retrieval-based system to improve recommendation quality beyond standard semantic search approaches.}
+    \resumeItem{Integrated \textbf{Stripe payments} and POS webhooks to support seamless ordering and transaction workflows.}
+    \resumeItem{Implemented multi-modal input pipelines and asynchronous processing to handle diverse user requests efficiently.}
 \end{itemize}
 
 \vspace{4pt}
 
-% --- PROJECTS ---
+\textbf{BlackRock} \hfill \textit{Gurugram} \\
+\textit{Software Engineer (SDE-1)} \hfill \textit{Jul 2021 - Jun 2023}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Developed full-stack financial reporting platform (Spring Boot, Angular), reducing report setup time from \textbf{1.5 months to 2--3 days}.}
+    \resumeItem{Standardized REST/GraphQL APIs across \textbf{50+ teams}, improving consistency and developer productivity.}
+    \resumeItem{Mentored interns and contributed to onboarding, improving team velocity and knowledge sharing.}
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{BlackRock} \hfill \textit{Gurugram} \\
+\textit{Software Engineering Intern} \hfill \textit{Jan 2021 - Jul 2021}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Built CI/CD analytics dashboard (Angular, Golang) for tracking pipeline performance across teams.}
+    \resumeItem{Improved backend test coverage to \textbf{85\%+} and enabled \textbf{50\% automation} through CI/CD pipelines.}
+\end{itemize}
+
+\vspace{4pt}
+
+% ---------- PROJECTS ----------
 \section{Projects}
 
-\textbf{Looks Maxing AI}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{Developed AI platform for outfit/makeup recommendations and virtual try-on. Used Gemini Nanobanana API and prompt and context engineering to provide nuanced outcomes}
-    \resumeItem{\href{https://www.looksmaxxing.in/}{Live Project Link}}
-\end{itemize}
-
-\vspace{6pt}
-
-\textbf{Fraud Detection (VAE)}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{Built VAE model for credit card fraud detection (91\%+ accuracy).}
-    \resumeItem{\href{https://github.com/kaulmesanyam/IITH_MTech/blob/main/Sem_2/Fraud_Analytics/Fraud_Detection_Using_an_Autoencoder_and_Variational_Autoencoder.zip}{GitHub Link}}
+\textbf{OCR Data Extraction System}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Built scalable document processing pipeline to extract structured data from PDFs using OCR and LLM-based parsing.}
+    \resumeItem{Designed APIs to integrate extracted data into downstream systems for insurance workflows.}
+    \resumeItem{\href{https://github.com/kaulmesanyam/ocr-extractor}{GitHub}}
 \end{itemize}
 
 \vspace{4pt}
 
-\textbf{Synthetic Data Generation (VAE)}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{Generated synthetic datasets using VAE latent space.}
-    \resumeItem{\href{https://github.com/kaulmesanyam/IITH_MTech/blob/main/Sem_2/Fraud_Analytics/Synthetic_data_generation_usin_Variational_Autoencoder.zip}{GitHub Link}}
+\textbf{LooksMaxing AI Platform}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Developed backend services for recommendation and personalization features with real-time inference support.}
+    \resumeItem{\href{https://www.looksmaxxing.in/}{Live Project}}
 \end{itemize}
 
 \vspace{4pt}
 
-\textbf{Deep Learning Architectures}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{Implemented CNN, RNN, ViT, Autoencoders from scratch (NumPy).}
-    \resumeItem{\href{https://github.com/kaulmesanyam/IITH_MTech/tree/main/Sem_2/DL}{GitHub Link}}
-\end{itemize}
+% ---------- EDUCATION ----------
+\section{Education}
 
-\vspace{4pt}
+\textbf{M.Tech, Computer Science} \hfill \textit{IIT Hyderabad} \\
+CGPA: 8.90 \hfill 2025
 
-\textbf{Hackathons}
-\begin{itemize}[leftmargin=*,noitemsep,topsep=0pt]
-    \resumeItem{\textbf{1st Place (IITH FoML)}: Ensemble model (Random Forest/Gradient Boosting).}
-    \resumeItem{\textbf{15th/100+ (IITH DL)}: Advanced DL architectures (ResNet, ViT).}
-\end{itemize}
+\vspace{2pt}
 
-\vspace{4pt}
-
-
-
-\end{minipage}
+\textbf{B.Tech, Computer Science (Networks \& Security)} \hfill \textit{VIT-AP University} \\
+CGPA: 8.90 \hfill 2021
 
 \end{document}

@@ -1,0 +1,125 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.45in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\pagestyle{empty}
+
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{4pt}{4pt}
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+}
+
+\begin{document}
+
+% ---------- HEADER ----------
+\begin{center}
+    {\Huge\bfseries SANYAM KAUL} \\ \vspace{2pt}
+    
+    \small kaulsanyam@gmail.com \quad | \quad +91-7018498338 \\ \vspace{2pt}
+    
+    \small
+    \href{https://www.linkedin.com/in/kaulmesanyam/}{https://www.linkedin.com/in/kaulmesanyam/} \quad
+    \href{https://leetcode.com/u/kaulmesanyam/}{https://leetcode.com/u/kaulmesanyam/} \quad
+    \href{https://github.com/kaulmesanyam/}{https://github.com/kaulmesanyam/} \\ \vspace{2pt}
+    
+    \textit{Machine Learning Engineer | Applied AI | LLM Systems | RAG | Scalable ML Infrastructure}
+\end{center}
+
+\vspace{4pt}
+
+% ---------- SKILLS ----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{\textbf{Languages:} Java, Python, SQL, Golang, Rust, Javascript, Typescript, C++, Shell, Bash LaTeX}
+    \resumeItem{\textbf{AI:} Traditional Machine Learning, Deep Learning, Transformers, Representation Learning, Anomaly Detection (VAE), Reinforcement Learning (RLHF)}
+    \resumeItem{\textbf{LLM Systems:} RAG, Prompt Engineering, LangChain, LangGraph, Vector Databases (ChromaDB), LLM Fine-tuning, LoRA, QLoRA, PEFT, HyDE}
+    \resumeItem{\textbf{Infra:} AWS (EKS, S3, EC2, SQS, SNS), Docker, Kubernetes}
+\end{itemize}
+
+\vspace{4pt}
+
+% ---------- EXPERIENCE ----------
+\section{Experience}
+
+\textbf{Netradyne} \hfill \textit{Bengaluru} \\
+\textit{Data Engineer (ML Systems)} \hfill \textit{Jul 2025 - Present}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Built scalable data pipelines for ML dataset generation and feature extraction, processing \textbf{5K+ videos within 2 hours}.}
+    \resumeItem{Reduced data pipeline latency from \textbf{2 hours to 20 minutes (6x improvement)}, accelerating ML training and experimentation cycles.}
+    \resumeItem{Designed distributed pipelines using \textbf{EKS, SQS, SNS, and S3} for large-scale video processing and feature engineering.}
+    \resumeItem{Developed monitoring system for ML infrastructure (FastAPI, CloudWatch), reducing cloud costs by \textbf{10--15\%}.}
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{WinesecretHK} \hfill \textit{} \\
+\textit{Founding Engineer (AI Systems)} \hfill \textit{Apr 2024 - Jun 2025}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Built RAG-based recommendation system combining LLM reasoning with vector retrieval to improve contextual relevance.}
+    \resumeItem{Designed and implemented \textbf{HyDE-inspired retrieval pipeline} to enhance query understanding and retrieval quality.}
+    \resumeItem{Implemented multi-modal pipelines (text, audio, image) enabling agentic workflows using LangChain and LangGraph.}
+    \resumeItem{Deployed scalable inference services using FastAPI and AWS for real-time AI-powered recommendations.}
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{BlackRock} \hfill \textit{Gurugram} \\
+\textit{Software Engineer} \hfill \textit{Jul 2021 - Jun 2023}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Developed data-intensive financial reporting platform processing large-scale structured datasets.}
+    \resumeItem{Standardized APIs across \textbf{50+ teams}, enabling consistent data access and improving system reliability.}
+\end{itemize}
+
+\vspace{4pt}
+
+% ---------- PROJECTS ----------
+\section{Projects}
+
+\textbf{OCR + LLM Data Extraction System}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Built end-to-end pipeline combining OCR and LLMs to extract structured data from unstructured documents.}
+    \resumeItem{Designed schema-aware extraction logic for reliable downstream integration into production systems.}
+    \resumeItem{\href{https://github.com/kaulmesanyam/ocr-extractor}{GitHub}}
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{Fraud Detection using Representation Learning}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Built anomaly detection system using Variational Autoencoders (VAE) for highly imbalanced transaction datasets.}
+    \resumeItem{Designed reconstruction-based scoring mechanism to detect rare anomalies beyond traditional supervised methods.}
+    \resumeItem{Evaluated performance using precision-recall metrics and compared against baseline anomaly detection models.}
+    \resumeItem{\href{https://github.com/kaulmesanyam/IITH_MTech/blob/main/Sem_2/Fraud_Analytics/Fraud_Detection_Using_an_Autoencoder_and_Variational_Autoencoder.zip}{GitHub}}
+\end{itemize}
+
+\vspace{4pt}
+
+\textbf{LooksMaxing AI Platform}
+\begin{itemize}[leftmargin=*,noitemsep]
+    \resumeItem{Built AI-driven recommendation system leveraging LLM-based reasoning and contextual prompts for personalized outputs.}
+    \resumeItem{Implemented real-time inference workflows for user-facing recommendations.}
+    \resumeItem{\href{https://www.looksmaxxing.in/}{Live Project}}
+\end{itemize}
+
+\vspace{4pt}
+
+% ---------- EDUCATION ----------
+\section{Education}
+
+\textbf{M.Tech, Computer Science} \hfill \textit{IIT Hyderabad} \\
+CGPA: 8.90 \hfill 2025
+
+\vspace{2pt}
+
+\textbf{B.Tech, Computer Science (Networks \& Security)} \hfill \textit{VIT-AP University} \\
+CGPA: 8.90 \hfill 2021
+
+\end{document}
