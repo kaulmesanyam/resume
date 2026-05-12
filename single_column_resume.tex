@@ -1,0 +1,137 @@
+\documentclass[9pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.35in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Define colors
+\definecolor{primary}{RGB}{0, 0, 0}
+\definecolor{secondary}{RGB}{80, 80, 80}
+\definecolor{links}{RGB}{0, 0, 255}
+
+\setlength{\parindent}{0pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=links,
+    urlcolor=links,
+}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{6pt}
+
+\newcommand{\resumeItem}[1]{\item\small{#1}\vspace{2pt}}
+\newcommand{\resumeHeading}[4]{
+  \vspace{6pt}
+  \textbf{#1} \hfill \textit{#2} \\[2pt]
+  \textit{#3} \hfill \textit{#4} \\[3pt]
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% ---------- HEADER ----------
+\begin{center}
+    {\Huge\bfseries SANYAM KAUL} \\ \vspace{6pt}
+    
+    \small
+    kaulsanyam@gmail.com \quad | \quad +91-7018498338 \\
+    LinkedIn: \href{https://www.linkedin.com/in/kaulmesanyam/}{https://www.linkedin.com/in/kaulmesanyam/} \\
+    GitHub: \href{https://github.com/kaulmesanyam/}{https://github.com/kaulmesanyam/} \quad | \quad LeetCode: \href{https://leetcode.com/u/kaulmesanyam/}{https://leetcode.com/u/kaulmesanyam/}
+\end{center}
+
+% ---------- SUMMARY ----------
+\section{Profile Summary}
+\small
+Software Engineer with an M.Tech in Computer Science from IIT Hyderabad and 5 years of experience in building scalable production systems and applied AI. Skilled in architecting RAG-based LLM systems, optimizing distributed data pipelines, and developing high-performance financial platforms. Proven track record of reducing cloud costs by 15\% and optimizing system latency by 6x. Expert in bridging the gap between core backend engineering and applied AI research.
+
+% ---------- SKILLS ----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Languages:} Java, Python, SQL, C++, Golang, Rust, Javascript, Shell/Bash.
+    \item \textbf{AI/ML:} LLMs (RAG, Fine-tuning, PEFT, LoRA/QLoRA), Transformers, LangChain, LangGraph, VAE/Anomaly Detection, Reinforcement Learning (RLHF), MCP.
+    \item \textbf{Backend:} Spring Boot, FastAPI, REST, gRPC, GraphQL, Node.js, Microservices.
+    \item \textbf{Data \& Infrastructure:} Cloud (AWS, Azure), EKS, Lambda, SQS, SNS, S3, Docker, Kubernetes, Kafka, Redis.
+    \item \textbf{Databases:} PostgreSQL, MongoDB, ChromaDB, Elasticsearch.
+    \item \textbf{Tools:} Git, Jenkins, GitHub Actions, CI/CD, Grafana, Datadog, Prometheus.
+\end{itemize}
+
+% ---------- EXPERIENCE ----------
+\section{Experience}
+
+\resumeHeading{Netradyne}{Bengaluru, India}{Data Engineer (ML Systems)}{Jul 2025 - Present}
+\begin{itemize}[leftmargin=*, nosep]
+    \resumeItem{Architected AI-powered agent for automating Root Cause Analysis workflow using LangChain, LangGraph, and custom MCP servers, reducing analysis time by \textbf{60\%}.}
+    \resumeItem{Implemented prompt chaining and conditional logic achieving \textbf{40\% reduction in hallucinations} and improved context retention.}
+    \resumeItem{Integrated agent into VS Code Copilot with AWS S3 file operations and automated report generation.}
+    \resumeItem{Designed and implemented AWS Monitoring System (Python, MongoDB, FastAPI) for machine metrics and costs, resulting in a \textbf{10--15\% reduction in cloud spend}.}
+    \resumeItem{Optimized Video Reprocessing System using EKS, SQS, SNS, and ASGs, reducing latency from \textbf{2 hours to 20 minutes (6x speedup)} for 50K+ video dataset creation.}
+    \resumeItem{Built scalable infrastructure for large-scale video feature engineering and automated ML dataset generation.}
+    \resumeItem{\textbf{Tech Stack:} Python, FastMCP, LangChain, LangGraph, FastAPI, MongoDB, PostgreSQL, Redis, AWS (EKS, S3, SQS, SNS, CloudWatch), Dash.}
+\end{itemize}
+
+\resumeHeading{WinesecretHK}{Remote}{AI Architect}{Apr 2024 - Jun 2025}
+\begin{itemize}[leftmargin=*, nosep]
+    \resumeItem{Built a \textbf{RAG-based AI Pairing System} using Python, AWS RDS, and ChromaDB for high-precision flavour-profile matching beyond standard semantic search.}
+    \resumeItem{Developed and submitted a patent for a \textbf{HyDE-inspired RAG algorithm} optimized for gastronomical compatibility and complex pairing logic.}
+    \resumeItem{Implemented multi-modal agentic workflows using LangChain and LangGraph to handle complex, multi-step user interactions and intent recognition.}
+    \resumeItem{Integrated Stripe payment systems and POS webhooks to support seamless ordering and transaction workflows.}
+    \resumeItem{\textbf{Tech Stack:} Python, FastAPI, AWS RDS, ChromaDB, LangChain, LangGraph, Stripe.}
+\end{itemize}
+
+\resumeHeading{BlackRock}{Gurugram, India}{Software Development Engineer 1}{Jan 2021 - Jun 2023}
+\begin{itemize}[leftmargin=*, nosep]
+    \resumeItem{Developed full-stack Financial Information Reporting Tool using Spring Boot and Angular, reducing client report setup time from \textbf{1.5 months to 2-3 days}.}
+    \resumeItem{Standardized REST and GraphQL API workflows across \textbf{50+ global teams}, significantly improving system reliability and developer productivity.}
+    \resumeItem{Built an \textbf{Azure DevOps} analytics dashboard to track CI/CD performance and improved backend test coverage to \textbf{85\%+}.}
+    \resumeItem{\textbf{Tech Stack:} Java (Spring Boot), Angular, REST, GraphQL, Golang, \textbf{Azure DevOps}.}
+\end{itemize}
+
+% ---------- PROJECTS ----------
+\section{Projects}
+
+\textbf{Car Insurance OCR (Structured Data Extraction)} | \textit{AI Developer} \hfill \textit{POC}
+\begin{itemize}[leftmargin=*, nosep]
+    \resumeItem{Developed a Python-based pipeline to extract structured data from unstructured insurance PDFs using Tesseract OCR and OpenAI LLMs.}
+    \resumeItem{\textbf{Tech Stack:} Python, OpenAI APIs, Tesseract OCR, FastAPI.}
+\end{itemize}
+
+\textbf{Fraud Detection using Representation Learning} | \textit{Machine Learning Engineer} \hfill \href{https://github.com/kaulmesanyam/IITH_MTech/}{GitHub}
+\begin{itemize}[leftmargin=*, nosep]
+    \resumeItem{Built a Variational Autoencoder (VAE) model for credit card fraud detection on imbalanced datasets, achieving \textbf{91\%+ accuracy}.}
+    \resumeItem{\textbf{Tech Stack:} Python, PyTorch, VAE, Scikit-Learn.}
+\end{itemize}
+
+\textbf{LooksMaxing AI Platform} | \textit{Full Stack AI Developer} \hfill \href{https://www.looksmaxxing.in/}{Live Link}
+\begin{itemize}[leftmargin=*, nosep]
+    \resumeItem{Developed an AI-driven personalization platform using Gemini and prompt engineering for virtual try-on and recommendation workflows.}
+    \resumeItem{\textbf{Tech Stack:} Python, FastAPI, Gemini API, Prompt Engineering.}
+\end{itemize}
+
+% ---------- EDUCATION ----------
+\section{Education}
+\resumeHeading{IIT Hyderabad}{Hyderabad, India}{M.Tech in Computer Science}{2025}
+\begin{itemize}[leftmargin=*, nosep]
+    \resumeItem{CGPA: 8.90 | Specialized in Distributed Systems and Applied AI.}
+\end{itemize}
+
+\resumeHeading{VIT-AP University}{Amaravati, India}{B.Tech in Computer Science (Networks \& Security)}{2021}
+\begin{itemize}[leftmargin=*, nosep]
+    \resumeItem{CGPA: 8.90 | Focus on Cybersecurity and Network Infrastructure.}
+\end{itemize}
+
+% ---------- RESEARCH & ACHIEVEMENTS ----------
+\section{Research \& Achievements}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{M.Tech Thesis:} Optimized HyperLedger Fabric blockchain architecture to reduce node failure rates; presented at \textbf{Indosys 2025}. \hfill \href{https://arxiv.org/}{arXiv}
+    \item \textbf{1st Place (IITH FoML):} Developed a winning ensemble model (Random Forest/GBDT) for predictive analytics, achieving 98\% accuracy in predicting the correct user class on the test set.
+    \item \textbf{15th/100+ (IITH DL):} Ranked in the top 15 in Deep Learning competition using ResNet and ViT architectures, achieving 92\% accuracy in labeling image data on the test set.
+    \item \textbf{Amazon AI Hackathon:} Developed a Vision-Language Model (VLM) based system to extract product data from images, featuring a chat-based UI for users to query product information.
+    \item \textbf{Deep Learning Architectures:} Implemented CNN, RNN, and Transformers from scratch using NumPy to deepen core algorithmic understanding.
+\end{itemize}
+
+\end{document}
