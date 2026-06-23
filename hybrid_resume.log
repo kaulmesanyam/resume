@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.1)  18 APR 2026 02:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.1)  23 JUN 2026 20:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -377,7 +377,7 @@ Package rerunfilecheck Info: File `hybrid_resume.out' has not changed.
 Here is how much of TeX's memory you used:
  9691 strings out of 474662
  150521 string characters out of 5751110
- 586656 words of memory out of 5000000
+ 587656 words of memory out of 5000000
  32652 multiletter control sequences out of 15000+600000
  561337 words of font info for 44 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
@@ -388,10 +388,10 @@ blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti9.pfb>
-Output written on hybrid_resume.pdf (1 page, 80137 bytes).
+Output written on hybrid_resume.pdf (1 page, 80249 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

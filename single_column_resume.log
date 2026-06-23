@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.1)  12 MAY 2026 20:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.1)  23 JUN 2026 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,10 +6,19 @@ entering extended mode
 (./single_column_resume.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
-(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/extsizes/size9.clo
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen141
 )
 \c@part=\count196
 \c@section=\count197
@@ -21,7 +30,7 @@ File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \c@table=\count269
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen141
+\bibindent=\dimen142
 )
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
@@ -44,20 +53,20 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@cnth=\count270
 \Gm@cntv=\count271
 \c@Gm@tempcnt=\count272
-\Gm@bindingoffset=\dimen142
-\Gm@wd@mp=\dimen143
-\Gm@odd@mp=\dimen144
-\Gm@even@mp=\dimen145
-\Gm@layoutwidth=\dimen146
-\Gm@layoutheight=\dimen147
-\Gm@layouthoffset=\dimen148
-\Gm@layoutvoffset=\dimen149
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
 \Gm@dimlist=\toks20
 )
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip51
-\enit@outerparindent=\dimen150
+\enit@outerparindent=\dimen151
 \enit@toks=\toks21
 \enit@inbox=\box52
 \enit@count@id=\count273
@@ -68,12 +77,12 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box53
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
-\ttl@plus=\dimen151
-\ttl@minus=\dimen152
+\ttl@plus=\dimen152
+\ttl@minus=\dimen153
 \ttl@toksa=\toks22
-\titlewidth=\dimen153
-\titlewidthlast=\dimen154
-\titlewidthfirst=\dimen155
+\titlewidth=\dimen154
+\titlewidthlast=\dimen155
+\titlewidthfirst=\dimen156
 )
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
@@ -127,7 +136,7 @@ Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen156
+\@linkdim=\dimen157
 \Hy@linkcounter=\count277
 \Hy@pagecounter=\count278
 
@@ -160,7 +169,7 @@ Package hyperref Info: Bookmarks ON on input line 4424.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen157
+\XeTeXLinkMargin=\dimen158
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -170,8 +179,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count281
-\Field@Width=\dimen158
-\Fld@charsize=\dimen159
+\Field@Width=\dimen159
+\Fld@charsize=\dimen160
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -241,12 +250,7 @@ ef
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box54
-)
-
-LaTeX Warning: Unused global option(s):
-    [9pt].
-
-(./single_column_resume.aux)
+) (./single_column_resume.aux)
 \openout1 = `single_column_resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -276,23 +280,23 @@ LaTeX Font Info:    ... okay on input line 35.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(25.29494pt, 546.918pt, 25.29494pt)
-* v-part:(T,H,B)=(25.29494pt, 794.45697pt, 25.29494pt)
+* h-part:(L,W,R)=(21.68121pt, 554.14545pt, 21.68121pt)
+* v-part:(T,H,B)=(21.68121pt, 801.68442pt, 21.68121pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=546.918pt
-* \textheight=794.45697pt
-* \oddsidemargin=-46.97505pt
-* \evensidemargin=-46.97505pt
-* \topmargin=-83.97505pt
+* \textwidth=554.14545pt
+* \textheight=801.68442pt
+* \oddsidemargin=-50.58878pt
+* \evensidemargin=-50.58878pt
+* \topmargin=-87.58878pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=9.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -311,28 +315,38 @@ Package hyperref Info: Link coloring ON on input line 35.
 (/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
-\scratchdimen=\dimen160
+\scratchdimen=\dimen161
 \scratchbox=\box55
 \nofMPsegments=\count289
 \nofMParguments=\count290
 \everyMPshowfont=\toks23
 \MPscratchCnt=\count291
-\MPscratchDim=\dimen161
+\MPscratchDim=\dimen162
 \MPnumerator=\count292
 \makeMPintoPDFobject=\count293
 \everyMPtoPDFconversion=\toks24
 )
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
@@ -341,43 +355,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 [1
 
 {/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-
-
-[2] (./single_column_resume.aux)
+(./single_column_resume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `single_column_resume.out' has not changed.
-(rerunfilecheck)             Checksum: CD40D6038B68A7E7CE572CCFC8F0E4C8;678.
+(rerunfilecheck)             Checksum: 7DF2CF1BE321340551F08ED06A5A5909;557.
  ) 
 Here is how much of TeX's memory you used:
- 9687 strings out of 474662
- 150527 string characters out of 5751110
- 580702 words of memory out of 5000000
- 32648 multiletter control sequences out of 15000+600000
- 561337 words of font info for 44 fonts, out of 8000000 for 9000
+ 9723 strings out of 474662
+ 153047 string characters out of 5751110
+ 584929 words of memory out of 5000000
+ 32679 multiletter control sequences out of 15000+600000
+ 561985 words of font info for 46 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,5n,79p,512b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,302b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/kaulmesanyam/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/tcrm0900.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on single_column_resume.pdf (2 pages, 82835 bytes).
+appen/ec/tcrm0800.600pk> </Users/kaulmesanyam/Library/texlive/2025basic/texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk></usr/local/texlive/2025basic/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025basic
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025b
+asic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/20
+25basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive
+/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
+live/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on single_column_resume.pdf (1 page, 125411 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
